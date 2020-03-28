@@ -91,7 +91,7 @@ public class ScenarioOneResp2 {
 
 		public class EpfProfile {
 			 public String name;
-			 public float epfNo;
+			 public String epfNo;
 			 public String idNo;
 			 public String passportNo = null;
 			 public String dob;
@@ -108,7 +108,7 @@ public class ScenarioOneResp2 {
 			  return name;
 			 }
 
-			 public float getEpfNo() {
+			 public String getEpfNo() {
 			  return epfNo;
 			 }
 
@@ -150,7 +150,7 @@ public class ScenarioOneResp2 {
 			  this.name = name;
 			 }
 
-			 public void setEpfNo(float epfNo) {
+			 public void setEpfNo(String epfNo) {
 			  this.epfNo = epfNo;
 			 }
 
