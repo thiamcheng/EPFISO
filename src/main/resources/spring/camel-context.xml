@@ -14,7 +14,7 @@
                     contentTypeHeader="true" library="Jackson"
                     prettyPrint="true" unmarshalTypeName="org.mycompany.Fields"/>
             </unmarshal>
-            <log id="_log1" message="Parsed ISO  ----->MTI   Field11  ${body.field11}  Field71_6: ${body.field71_6}"/>
+            <log id="_log1" message="Parsed ISO for the demo 2 April 2020  ----->MTI   Field11  ${body.field11}  Field71_6: ${body.field71_6}"/>
             <to id="_to3" uri="ref:transform"/>
             <marshal id="_marshal1">
                 <json library="Jackson" unmarshalTypeName="org.mycompany.ScenarioOneResp2"/>
